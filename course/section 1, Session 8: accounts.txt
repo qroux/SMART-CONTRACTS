@@ -1,0 +1,7 @@
+section 1, Session 8: accounts
+
+account : identification
+public key : grant access to give eth to you account
+private key : grant access to to give eth from your account
+
+one account is connected to all eth networks

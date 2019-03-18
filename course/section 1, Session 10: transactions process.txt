@@ -1,0 +1,30 @@
+section 1, Session 10:
+
+transactions labels/properties:
+
+- nonce: how many time a sende has sent a transaction.
+
+- to: address of the account receiving the eth
+
+- value: amount of eth transfered
+
+- gas/Price
+
+- startGas/Gaslimit
+
+crypto part: generate address from the senders private key (one way process) (colision free)
+- v
+- r
+- s
+
+
+
+
+faucet process :
+
+- submit address on website
+- address sent to backend server
+- backend server running web 3 library create a "transaction object"
+- backend server send "transaction object" to the rinkeby network
+- backend server wait for the network to send back a confirmation of the transaction fullfilment
+- backend server send to the website to display the transaction to the user.
