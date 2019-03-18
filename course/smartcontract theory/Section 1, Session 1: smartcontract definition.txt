@@ -1,0 +1,22 @@
+Section 1, Session 15: smartcontract definition
+
+smartcontract = an account controlled by code
+
+3 smartcontracts fields:
+- balance : amount of ether on the account
+- storage : data for this contract (numbers, strings, array etc.)
+- code : raw machine code (sompiled solidity)
+
+
+illustration 3:15
+
+our account = external account NB: exists in all ethereum network
+smartcontract account = contract account NB: exists only on one ethereum network = cannot be accessed from another network
+
+
+
+source contract = smartcontract generated locally on our computer
+instance contract = instance of the source smartcontract deploy on a specific network
+NB: a same source contract can be deployed to several network. but each network have its own smartcontract instance
+
+instance contract = smartcontract account

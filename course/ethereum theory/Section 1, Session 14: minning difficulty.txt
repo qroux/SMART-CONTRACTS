@@ -1,0 +1,7 @@
+minning difficulty:
+
+1) data + nonce = output Hash
+2) output Hash converted to base 10
+3) is the converted result less than 1000 ? (100, 10 etc)
+
+bitcoin target time = 15 sec

@@ -1,0 +1,9 @@
+Section 1, Session 16: solidity basics
+
+1) contract definition (in solidity)
+2) Solidity compiler:
+- first output file = Byte code (deployed on the blockchain)
+- second output file = Application Binary interface (ABI). interface to the smart contract but not in blockchain language + cannot modify the bytecode. just a window.
+
+
+Use remiw.ethereum.org to test solidity smarcontract

@@ -28,3 +28,10 @@ faucet process :
 - backend server send "transaction object" to the rinkeby network
 - backend server wait for the network to send back a confirmation of the transaction fullfilment
 - backend server send to the website to display the transaction to the user.
+
+NB: a transaction is not sent to the network to ONE SPECIFIC node.
+
+- a transaction is queued along other transactions.
+- several transactions consitutes a Block.
+- the block is a register that will go through the validation process(minning).
+
