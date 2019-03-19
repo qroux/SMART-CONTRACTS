@@ -1,0 +1,5 @@
+solidity common mistakes
+
+1) real Eth network TAKES TIME (30sec at least)
+
+2) public + storage variable = get variable function automatically generated

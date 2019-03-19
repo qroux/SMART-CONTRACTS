@@ -1,0 +1,13 @@
+Gas and gas limit Section 1 Session 26
+
+2:21: excel with pricing for each operation
+
+Gas depends on complexity of the operation(s)
+if you don't grant enough gas, the operation won"t be performed
+
+
+gasPrice = price the sender is willing to pay PER UNIT OF GAS
+ex: simple addition will cost 2gas, if gas price is 5wei, total price will be (2gas * 5wei) = 10wei
+
+startGas/gasLimit = maximum amount of gas we are willing to consume (you don't necessessarly know howmuch gas it will take to perform the operation)
+= stop the operation if it takes more gas than the gaslimit i set.

@@ -5,10 +5,25 @@ transactions labels/properties:
 - nonce: how many time a sende has sent a transaction.
 
 - to: address of the account receiving the eth
+NB: only for transactions between accounts. Not "To:" in a contract.
+no "To:" = generate a contract on the blockchain
 
 - value: amount of eth transfered
 
 - gas/Price
+unit = eth or wei (smalest amount of eth is 1 wei)
+
+
+NB: Get = "calling a function" = no changing, only retrun data = gasfree + instant
+NB: any changing on the blockchain = transcation = gas + time to compute + hash of the transaction(bill)
+NB: that's why you cannot combine "calling a function" and a transaction inside solidity code.
+  get is free, instant and a sole purpose to RETURN DATA.
+  transaction have to sole purpose to perform a changing on the blockchain. The only output of the transaction is the transaction hash.
+ex: WON'T WORK
+  function setMessage(string newMessage) public returns (string) {
+    message = newMessage;
+    return message;
+  }
 
 - startGas/Gaslimit
 
