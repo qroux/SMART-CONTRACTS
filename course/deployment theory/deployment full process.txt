@@ -50,3 +50,21 @@ inbox git:(master) ✗ node compile.js
    [ ':6:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.\n  function Inbox(string initialMessage) public {\n  ^ (Relevant source part starts here and spans across multiple lines).\n' ],
   sourceList: [ '' ],
   sources: { '': { AST: [Object] } } }
+
+
+
+
+
+8) create a test folder inside main folder
+9) create a ProjectName.test.js file inside the test folder
+
+10)  npm install --save mocha ganache-cli
+- install web3.js library
+- install Ganache/(old name = TestRPC), our local test network
+
+11) npm install --save web3@1.0.0-beta.35
+- install web3
+  see section 2 session 41 diagram 2:30
+
+
+

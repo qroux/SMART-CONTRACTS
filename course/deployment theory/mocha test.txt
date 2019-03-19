@@ -1,0 +1,32 @@
+3 main functions:
+
+1) it:
+run a test and make an assertion
+
+2) describe:
+group together "it" functions
+
+3) beforeEach:
+execute some general setup code
+
+
+
+1) make all the require (assert, ganache, Web3(capitalize for constructor function) ) + create web3 instance:
+
+const assert = require ('assert');
+const ganache = require ('ganache-cli');
+const Web3 = require('web3');
+const web3 = new Web3(ganache.provider());
+
+
+2) write your testing script inside ProjectName.test.js
+
+
+3) modify your package.json file:
+- replace "test": echo \"Error: no test specified\" && exit 1"
+- by "test": "mocha"
+
+4) npm run test
+
+
+
