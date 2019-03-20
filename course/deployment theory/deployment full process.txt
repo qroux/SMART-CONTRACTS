@@ -68,3 +68,13 @@ inbox git:(master) ✗ node compile.js
 
 
 
+12) create your test with mocha and run it
+
+
+REAL DEPLOYMENT
+
+13) create a file deploy.js at the root
+
+14) imports modules:
+https://rinkeby.infura.io/orDimgKRzwNrVCDrAk5Q
+

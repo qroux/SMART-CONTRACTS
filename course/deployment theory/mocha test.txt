@@ -11,6 +11,8 @@ execute some general setup code
 
 
 
+TESTING
+
 1) make all the require (assert, ganache, Web3(capitalize for constructor function) ) + create web3 instance:
 
 const assert = require ('assert');
@@ -27,6 +29,13 @@ const web3 = new Web3(ganache.provider());
 - by "test": "mocha"
 
 4) npm run test
+testing process:
+- mocha starts
+- deploy a new contract (beforEach)
+- manipulate the contract(it)
+- make an assertion about the contract(it)
+
+
 
 
 
