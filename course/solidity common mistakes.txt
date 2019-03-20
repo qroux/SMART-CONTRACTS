@@ -3,3 +3,21 @@ solidity common mistakes
 1) real Eth network TAKES TIME (30sec at least)
 
 2) public + storage variable = get variable function automatically generated
+
+3) arrays and dynamic arrays
+    - solidity allows nested dynamic arrays
+
+    const myArray = [
+      [1,2,3],
+      [1,2,3],
+      [1,2,3]
+    ]
+    - in javascript web3 allows nested dynamic arrays
+    - the bridge between solidity and JS DON'T allows nested dynamic arrays.
+
+    NB: strings are in fact stored in solidity as dynamic arrays! so they are not directl acessible from JS.
+
+
+4) no real random function in solidity. sudo random
+
+
