@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'replace by mneumonic',
+  'buddy cart pipe spell clinic melt robot title repair multiply celery human',
   'https://rinkeby.infura.io/v3/129f0ed43f7743feb79e8460bf15a996'
 );
 
